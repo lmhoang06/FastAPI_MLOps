@@ -1,0 +1,17 @@
+# FastAPI server
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# ML: HuggingFace + PyTorch
+transformers>=4.47.0
+torch>=2.0.0
+accelerate>=0.34.0
+safetensors>=0.4.0
+
+# Optional: ONNX export & inference (for tools + optional runtime)
+onnx>=1.16.0
+onnxruntime>=1.18.0
+
+# Utils
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
